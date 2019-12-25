@@ -2,10 +2,11 @@
 // Created by egor on 13.11.2019.
 //
 #include "task1.h"
+#include <iostream>
 
 int main()
 {
-    calcDelta();
+    std::cout << calcCost() << std::endl;
     return 0;
 }
 
