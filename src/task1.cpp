@@ -12,7 +12,9 @@ double calcDelta()
 
     std::cout << "Gap = " << circleRow->getRadius() - 6378.1 << std::endl;
 
-    return circleRow->getRadius() - 6378.1;
+    long a = ((circleRow->getRadius() - 6378.1) * 1000);
+
+    return a / 1000.0;
 }
 
 double calcCost()
